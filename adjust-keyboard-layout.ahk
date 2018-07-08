@@ -3,7 +3,8 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-CapsLock::Ctrl
+; can instead be adjusted via reg-entry:
+;CapsLock::Ctrl
 
 ; map german extra characters to american layout:
 ; Right Alt (AltGr) + key ...
