@@ -5,8 +5,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; emacs-like keybindings
 
-SendMode Input
-
 ; move direction:
 ^p::send {Up}
 ^n::send {Down}
