@@ -12,3 +12,5 @@ Set-PSReadLineKeyHandler -Chord 'Ctrl+a' -Function BeginningOfLine
 Set-PSReadLineKeyHandler -Chord 'Ctrl+e' -Function EndOfLine
 Set-PSReadLineKeyHandler -Chord 'Ctrl+k' -Function KillLine
 Set-PSReadlineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
+Set-PSReadLineKeyHandler -Chord 'Alt+d'  -Function DeleteWord
+Set-PSReadLineKeyHandler -Chord 'Alt+.'  -Function YankLastArg
